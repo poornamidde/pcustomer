@@ -1,7 +1,7 @@
 node {
 stage("Git Clone"){
 
-git branch: 'main', url: 'https://github.com/chanakyad/Customer.git'
+git branch: 'master', url: 'https://github.com/poornamidde/pcustomer.git'
 }
 stage("Docker build"){
 sh 'docker build -t customer .'
